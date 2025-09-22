@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RESCUE_ROVER/static/css/main.5328d31e.css",
+    "main.js": "/RESCUE_ROVER/static/js/main.9934bc1a.js",
+    "static/js/453.b42e6212.chunk.js": "/RESCUE_ROVER/static/js/453.b42e6212.chunk.js",
+    "index.html": "/RESCUE_ROVER/index.html",
+    "main.5328d31e.css.map": "/RESCUE_ROVER/static/css/main.5328d31e.css.map",
+    "main.9934bc1a.js.map": "/RESCUE_ROVER/static/js/main.9934bc1a.js.map",
+    "453.b42e6212.chunk.js.map": "/RESCUE_ROVER/static/js/453.b42e6212.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5328d31e.css",
+    "static/js/main.9934bc1a.js"
+  ]
+}
