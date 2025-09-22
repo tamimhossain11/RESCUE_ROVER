@@ -5,8 +5,8 @@ import { FaRobot, FaFire, FaHelicopter, FaShieldAlt, FaEye, FaCog, FaBolt, FaWif
 import './Features.css';
 
 // Import images
-import roverImage2 from '../assets/images/02_image.jpeg';
-import droneImage2 from '../assets/images/06_image.jpg';
+import roverImage2 from '../assets/images/06_image.jpg';
+import droneImage2 from '../assets/images/02_image.jpeg';
 
 const Features = () => {
   const [ref, inView] = useInView({

@@ -64,10 +64,11 @@ const Hero = () => {
           </motion.h1>
 
           <motion.div className="hero-subtitle-wrapper" variants={itemVariants}>
-            <h2 className="hero-subtitle-main">GPS-Enabled AI-Powered Smart Rescue Rover</h2>
+            <h2 className="hero-subtitle-main">GPS-Enabled AI-Powered Smart Rescue System</h2>
             <p className="hero-subtitle">
-              Designed for rescue operations, disaster surveillance, and research in areas where human
-              intervention is difficult or impossible. Built by the <strong>Rescue Rover</strong> team.
+              Dual-domain rescue system: <strong>Ground rover</strong> for terrestrial operations and 
+              <strong>aerial drone</strong> for surveillance in separate operational spaces. 
+              Built by the <strong>Rescue Rover</strong> team for comprehensive disaster response.
             </p>
           </motion.div>
 
@@ -111,12 +112,12 @@ const Hero = () => {
           animate="animate"
         >
           <div className="hero-robot">
-            <img src={roverImage} alt="Pothochari Rover" />
+            <img src={roverImage} alt="Pothochari Ground Rover" />
             <div className="robot-glow"></div>
-          </div>
-          <div className="hero-drone">
-            <img src={droneImage} alt="Surveillance Drone" />
-            <div className="drone-glow"></div>
+            <div className="hero-unit-label">
+              <h4>Ground Unit</h4>
+              <p>Terrestrial Rescue Operations</p>
+            </div>
           </div>
         </motion.div>
       </div>
