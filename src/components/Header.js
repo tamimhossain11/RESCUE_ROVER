@@ -36,7 +36,7 @@ const Header = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ type: 'spring', stiffness: 300 }}
         >
-          <span className="logo-text gradient-text">Pothochari</span>
+          <span className="logo-text gradient-text">Pothochari 1.0</span>
           <span className="logo-subtitle">Rescue Rover</span>
         </motion.div>
 

@@ -40,50 +40,50 @@ const Features = () => {
   const features = [
     {
       icon: FaRobot,
-      title: "Autonomous Navigation",
-      description: "Advanced AI-powered navigation system with obstacle detection and path planning for complex emergency scenarios.",
-      color: "#ff6b35"
-    },
-    {
-      icon: FaFire,
-      title: "Fire Suppression System",
-      description: "Integrated fire extinguisher with precision targeting, capable of suppressing various types of fires effectively.",
-      color: "#f7931e"
-    },
-    {
-      icon: FaHelicopter,
-      title: "Aerial Surveillance",
-      description: "High-resolution drone with thermal imaging for comprehensive situational awareness and monitoring.",
-      color: "#ffcd3c"
-    },
-    {
-      icon: FaShieldAlt,
-      title: "Safety First Design",
-      description: "Built to operate in hazardous environments, protecting human responders from dangerous situations.",
+      title: "GPS Navigation (NEO-7M)",
+      description: "Real-time location tracking with geo-fencing capabilities. Safe zone alerts with latitude, longitude and Google Maps links.",
       color: "#ff6b35"
     },
     {
       icon: FaEye,
-      title: "Real-time Monitoring",
-      description: "Live video feed and sensor data transmission for remote operation and decision making.",
+      title: "AI Human Detection",
+      description: "YOLO model for obstacle classification and ML model to detect whether human is alive, dead or unconscious using eye movement and body temperature.",
       color: "#f7931e"
     },
     {
       icon: FaCog,
-      title: "Modular Architecture",
-      description: "Expandable design allowing for additional modules and capabilities based on mission requirements.",
+      title: "6 DOF Robotic Arm",
+      description: "AI-controlled robotic arm for rescue tasks with CO₂ sensor to detect breathing of victims during rescue operations.",
+      color: "#ffcd3c"
+    },
+    {
+      icon: FaShieldAlt,
+      title: "Multiple Sensors",
+      description: "MLX90614 temp sensor, PIR motion, CO₂ sensor, 3 ultrasonic sensors for 270° collision avoidance, gas & fire detection.",
+      color: "#ff6b35"
+    },
+    {
+      icon: FaHelicopter,
+      title: "Dual Mode Operation",
+      description: "FPV drone with robotic claw for aid supply when rover faces mechanical failure or encounters inaccessible terrain.",
+      color: "#f7931e"
+    },
+    {
+      icon: FaWifi,
+      title: "Advanced Controllers",
+      description: "Arduino Mega, Arduino Nano, ESP32 dev module, ESP Wroom 32 for comprehensive system control and communication.",
       color: "#ffcd3c"
     },
     {
       icon: FaBolt,
-      title: "Rapid Response",
-      description: "Quick deployment and activation systems for immediate response to emergency situations.",
+      title: "Rocker-Bogie Suspension",
+      description: "NASA-inspired suspension system with differential mechanism for stable navigation over rough terrain and rubble.",
       color: "#ff6b35"
     },
     {
-      icon: FaWifi,
-      title: "Remote Control",
-      description: "Secure wireless communication for remote operation and coordination with emergency response teams.",
+      icon: FaEye,
+      title: "24/7 Surveillance Camera",
+      description: "TP Link Tapo C200 camera for continuous surveillance with live video feed for researchers and rescue coordination.",
       color: "#f7931e"
     }
   ];
@@ -99,10 +99,10 @@ const Features = () => {
           animate={inView ? "visible" : "hidden"}
         >
           <motion.div className="features-header" variants={itemVariants}>
-            <h2 className="section-title gradient-text">Advanced Features</h2>
+            <h2 className="section-title gradient-text">Core Technologies</h2>
             <p className="section-subtitle">
-              Cutting-edge technology integrated into a comprehensive rescue system. 
-              Every feature is designed with life-saving capabilities in mind.
+              Pothochari 1.0 combines GPS, AI, mechanical engineering, and sensor fusion to operate in extreme conditions.
+              Its modular design allows future upgrades, making it a valuable tool for rescue and research missions.
             </p>
           </motion.div>
 
@@ -143,12 +143,13 @@ const Features = () => {
                 </div>
               </div>
               <div className="showcase-details">
-                <h4>Rescue Rover</h4>
+                <h4>Pothochari 1.0 - Ground Unit</h4>
                 <ul>
-                  <li>Autonomous navigation system</li>
-                  <li>Integrated fire extinguisher</li>
-                  <li>Thermal imaging sensors</li>
-                  <li>All-terrain mobility</li>
+                  <li>Rocker-Bogie suspension system</li>
+                  <li>6 DOF AI-controlled robotic arm</li>
+                  <li>Multiple environmental sensors</li>
+                  <li>GPS navigation with geo-fencing</li>
+                  <li>Dual LCD displays for data & alerts</li>
                 </ul>
               </div>
             </div>
@@ -162,12 +163,13 @@ const Features = () => {
                 </div>
               </div>
               <div className="showcase-details">
-                <h4>Surveillance Drone</h4>
+                <h4>FPV Surveillance Drone</h4>
                 <ul>
-                  <li>360° aerial monitoring</li>
-                  <li>HD camera system</li>
-                  <li>Real-time data transmission</li>
-                  <li>Extended flight time</li>
+                  <li>Robotic claw for aid supply</li>
+                  <li>Live camera feed transmission</li>
+                  <li>Terrain analysis capabilities</li>
+                  <li>Backup operation when rover fails</li>
+                  <li>Autonomous deployment system</li>
                 </ul>
               </div>
             </div>

@@ -18,12 +18,13 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <div className="footer-logo">
-              <span className="logo-text gradient-text">Pothochari</span>
+              <span className="logo-text gradient-text">Pothochari 1.0</span>
               <span className="logo-subtitle">Rescue Rover</span>
             </div>
             <p className="footer-description">
-              Revolutionary rescue robotics system designed to save lives in emergency situations. 
-              Combining autonomous fire suppression with aerial surveillance for comprehensive disaster response.
+              GPS-Enabled AI-Powered Smart Rescue Rover designed for rescue operations, disaster
+              surveillance, and research in areas where human intervention is difficult or impossible.
+              Presented by M Adiyat Yeamim and Md. Tahmid Bin Alam Ayat.
             </p>
             <div className="footer-social">
               <a href="#" className="social-link">

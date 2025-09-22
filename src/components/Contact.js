@@ -89,24 +89,24 @@ const Contact = () => {
               <div className="contact-card">
                 <h3>Contact Information</h3>
                 <div className="contact-item">
-                  <FaEnvelope className="contact-icon" />
-                  <div>
-                    <h4>Email</h4>
-                    <p>rescue.rover.team@gmail.com</p>
-                  </div>
-                </div>
-                <div className="contact-item">
                   <FaPhone className="contact-icon" />
                   <div>
                     <h4>Phone</h4>
-                    <p>+1 (555) 123-4567</p>
+                    <p>01913052233</p>
                   </div>
                 </div>
                 <div className="contact-item">
                   <FaMapMarkerAlt className="contact-icon" />
                   <div>
                     <h4>Location</h4>
-                    <p>Robotics Lab, University Campus</p>
+                    <p>Mohammadpur, Dhaka-1207</p>
+                  </div>
+                </div>
+                <div className="contact-item">
+                  <FaEnvelope className="contact-icon" />
+                  <div>
+                    <h4>Email</h4>
+                    <p>rescue.rover.team@gmail.com</p>
                   </div>
                 </div>
               </div>

@@ -60,34 +60,36 @@ const Hero = () => {
           </motion.div>
 
           <motion.h1 className="hero-title" variants={itemVariants}>
-            Welcome to <span className="gradient-text">Pothochari</span>
+            <span className="gradient-text">Pothochari 1.0</span>
           </motion.h1>
 
-          <motion.p className="hero-subtitle" variants={itemVariants}>
-            Next-generation rescue robotics by <strong>Rescue Rover</strong> team. 
-            Featuring autonomous fire suppression rovers and aerial surveillance drones 
-            for emergency response missions.
-          </motion.p>
+          <motion.div className="hero-subtitle-wrapper" variants={itemVariants}>
+            <h2 className="hero-subtitle-main">GPS-Enabled AI-Powered Smart Rescue Rover</h2>
+            <p className="hero-subtitle">
+              Designed for rescue operations, disaster surveillance, and research in areas where human
+              intervention is difficult or impossible. Built by the <strong>Rescue Rover</strong> team.
+            </p>
+          </motion.div>
 
           <motion.div className="hero-stats" variants={itemVariants}>
             <div className="stat-item">
-              <FaShieldAlt className="stat-icon" />
+              <FaRocket className="stat-icon" />
               <div>
-                <div className="stat-number">100%</div>
-                <div className="stat-label">Autonomous</div>
+                <div className="stat-number">GPS</div>
+                <div className="stat-label">Navigation</div>
               </div>
             </div>
             <div className="stat-item">
-              <FaRocket className="stat-icon" />
+              <FaShieldAlt className="stat-icon" />
               <div>
-                <div className="stat-number">24/7</div>
-                <div className="stat-label">Ready</div>
+                <div className="stat-number">AI</div>
+                <div className="stat-label">Powered</div>
               </div>
             </div>
             <div className="stat-item">
               <FaEye className="stat-icon" />
               <div>
-                <div className="stat-number">360°</div>
+                <div className="stat-number">24/7</div>
                 <div className="stat-label">Surveillance</div>
               </div>
             </div>

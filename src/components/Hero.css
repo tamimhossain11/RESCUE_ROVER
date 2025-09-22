@@ -69,11 +69,22 @@
   color: #ffffff;
 }
 
+.hero-subtitle-wrapper {
+  margin-bottom: 3rem;
+}
+
+.hero-subtitle-main {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ff6b35;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
 .hero-subtitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   color: #a0a0a0;
-  margin-bottom: 3rem;
   max-width: 500px;
 }
 
