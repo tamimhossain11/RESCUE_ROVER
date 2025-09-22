@@ -4,6 +4,16 @@ import { useInView } from 'react-intersection-observer';
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import './Gallery.css';
 
+// Import all images
+import image01 from '../assets/images/01_image.jpg';
+import image02 from '../assets/images/02_image.jpeg';
+import image03 from '../assets/images/03_image.jpeg';
+import image04 from '../assets/images/04_image.jpeg';
+import image05 from '../assets/images/05_image.jpg';
+import image06 from '../assets/images/06_image.jpg';
+import image07 from '../assets/images/07_image.jpg';
+import image08 from '../assets/images/08_image.jpg';
+
 const Gallery = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -15,49 +25,49 @@ const Gallery = () => {
 
   const images = [
     {
-      src: '/images/01_image.jpg',
+      src: image01,
       title: 'Pothochari Rover - Front View',
       description: 'Main rescue rover with integrated fire suppression system',
       category: 'rover'
     },
     {
-      src: '/images/02_image.jpeg',
+      src: image02,
       title: 'Rover Side Profile',
       description: 'Side view showing the modular design and mobility features',
       category: 'rover'
     },
     {
-      src: '/images/03_image.jpeg',
+      src: image03,
       title: 'Technical Components',
       description: 'Detailed view of the technical components and sensors',
       category: 'rover'
     },
     {
-      src: '/images/04_image.jpeg',
+      src: image04,
       title: 'Control Systems',
       description: 'Advanced control systems and navigation equipment',
       category: 'rover'
     },
     {
-      src: '/images/05_image.jpg',
+      src: image05,
       title: 'Surveillance Drone',
       description: 'Aerial surveillance drone for comprehensive monitoring',
       category: 'drone'
     },
     {
-      src: '/images/06_image.jpg',
+      src: image06,
       title: 'Drone Technology',
       description: 'High-tech drone with advanced camera systems',
       category: 'drone'
     },
     {
-      src: '/images/07_image.jpg',
+      src: image07,
       title: 'Integrated System',
       description: 'Complete system showing rover and drone integration',
       category: 'system'
     },
     {
-      src: '/images/08_image.jpg',
+      src: image08,
       title: 'Team Showcase',
       description: 'Rescue Rover team with the complete Pothochari system',
       category: 'team'
@@ -203,3 +213,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+

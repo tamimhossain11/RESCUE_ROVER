@@ -4,6 +4,10 @@ import { useInView } from 'react-intersection-observer';
 import { FaRobot, FaFire, FaHelicopter, FaShieldAlt, FaEye, FaCog, FaBolt, FaWifi } from 'react-icons/fa';
 import './Features.css';
 
+// Import images
+import roverImage2 from '../assets/images/02_image.jpeg';
+import droneImage2 from '../assets/images/06_image.jpg';
+
 const Features = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -132,7 +136,7 @@ const Features = () => {
           <motion.div className="features-showcase" variants={itemVariants}>
             <div className="showcase-item rover-showcase">
               <div className="showcase-image">
-                <img src="/images/02_image.jpeg" alt="Rescue Rover" />
+                <img src={roverImage2} alt="Rescue Rover" />
                 <div className="image-overlay">
                   <h4>Ground Unit</h4>
                   <p>Fire Suppression Rover</p>
@@ -151,7 +155,7 @@ const Features = () => {
 
             <div className="showcase-item drone-showcase">
               <div className="showcase-image">
-                <img src="/images/06_image.jpg" alt="Surveillance Drone" />
+                <img src={droneImage2} alt="Surveillance Drone" />
                 <div className="image-overlay">
                   <h4>Aerial Unit</h4>
                   <p>Surveillance Drone</p>

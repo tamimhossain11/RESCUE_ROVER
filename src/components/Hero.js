@@ -3,6 +3,10 @@ import { motion } from 'framer-motion';
 import { FaRocket, FaShieldAlt, FaEye } from 'react-icons/fa';
 import './Hero.css';
 
+// Import images
+import roverImage from '../assets/images/01_image.jpg';
+import droneImage from '../assets/images/05_image.jpg';
+
 const Hero = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -105,11 +109,11 @@ const Hero = () => {
           animate="animate"
         >
           <div className="hero-robot">
-            <img src="/images/01_image.jpg" alt="Pothochari Rover" />
+            <img src={roverImage} alt="Pothochari Rover" />
             <div className="robot-glow"></div>
           </div>
           <div className="hero-drone">
-            <img src="/images/05_image.jpg" alt="Surveillance Drone" />
+            <img src={droneImage} alt="Surveillance Drone" />
             <div className="drone-glow"></div>
           </div>
         </motion.div>
